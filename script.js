@@ -1,7 +1,7 @@
 
 function insert_Row() {
 	//Write your code here
-	let sampleTable= document.querySelector("#sampleTable");
+	let sampleTableTBody= document.querySelector("#sampleTable tbody");
 	let tr = document.createElement("tr");
 	
 	let td1 = document.createElement("td");
@@ -11,5 +11,5 @@ function insert_Row() {
 
 	tr.append(td1);
 	tr.append(td2);
-	sampleTable.prepend(tr);
+	sampleTableTBody.prepend(tr);
 }
